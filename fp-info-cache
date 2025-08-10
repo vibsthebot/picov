@@ -1,4 +1,4 @@
-27190254204975541
+27203708477551285
 74AHCT1G125W5-7
 SOT25_DIO
 
@@ -36953,6 +36953,13 @@ Surface mounted pin header SMD 2x40 2.00mm double row
 80
 80
 Connector_PinHeader_2.54mm
+Castellated_20
+
+
+0
+40
+20
+Connector_PinHeader_2.54mm
 PinHeader_1x01_P2.54mm_Horizontal
 Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x01 2.54mm single row
@@ -38899,12 +38906,26 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 80
 80
 Connector_PinHeader_2.54mm
+SMD3
+
+
+0
+3
+3
+Connector_PinHeader_2.54mm
 Untitled
 
 
 0
 0
 0
+Connector_PinHeader_2.54mm
+Untitled_1
+
+
+0
+40
+20
 Connector_PinSocket_1.00mm
 PinSocket_1x02_P1.00mm_Vertical
 Through hole straight socket strip, 1x02, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
@@ -90180,6 +90201,41 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Panelization
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-3mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-5mm-slot
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf

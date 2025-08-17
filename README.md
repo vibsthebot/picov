@@ -1,5 +1,5 @@
 # picov
-<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/c5a72bb100a44137f3708cb640a2926dcb8587a4_image.png">
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/33452eb53b1988eaae75b6c6d30f1212a63c3724_screenshot_2025-08-17_at_2.58.42___pm.png">
 
 A RP2040 powered Pico formfactor devboard using usb-c. It includes a 4x4 2020 neopixel array. The pcb was designed in KiCad.
 

@@ -1,0 +1,227 @@
+(footprint "LED_WS2812-2020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.517 -1.86247 0)
+		(layer "F.SilkS")
+		(uuid "699de1c7-3847-4e24-94c7-3ee63f6f4023")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_WS2812-2020"
+		(at 4.581 1.88303 0)
+		(layer "F.Fab")
+		(uuid "95ff6466-2d1d-4f49-bcd8-6cbbd343e238")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6fe578a-6096-4823-bbeb-1b8543b221fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20b744ac-8cba-4541-afe4-22cb90d1a888")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.245 -1)
+		(end -0.245 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0d2488a-1523-49c0-9b6a-2105026123ca")
+	)
+	(fp_line
+		(start 0.245 1)
+		(end -0.245 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75f3d65d-b535-4364-8e01-9fc6be880f8b")
+	)
+	(fp_circle
+		(center 1.87 0.55)
+		(end 1.97 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "08588eeb-b9ff-49c1-af6d-5aa1a898cbe4")
+	)
+	(fp_line
+		(start -1.515 -1.25)
+		(end -1.515 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "439a8614-e25e-462f-ae5a-9d4e593581d5")
+	)
+	(fp_line
+		(start -1.515 1.25)
+		(end 1.515 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a8d8efb-f579-4357-ada9-fa874c2e01c2")
+	)
+	(fp_line
+		(start 1.515 -1.25)
+		(end -1.515 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc52a5b3-cf84-4105-9375-5e2fd82f9792")
+	)
+	(fp_line
+		(start 1.515 1.25)
+		(end 1.515 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78d8bd40-09c7-4e5d-84d0-355379137aed")
+	)
+	(fp_line
+		(start -1.1 -1)
+		(end 1.1 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d07bca1-4ba2-4b6e-913a-bc275f9aeb3f")
+	)
+	(fp_line
+		(start -1.1 1)
+		(end -1.1 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "813c242f-9e5d-4186-8626-a4750a2a068a")
+	)
+	(fp_line
+		(start 1.1 -1)
+		(end 1.1 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a11be4e-3f66-4570-88f9-38f6ba95df77")
+	)
+	(fp_line
+		(start 1.1 1)
+		(end -1.1 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45fe6269-8657-4485-8f59-4aede1550ab3")
+	)
+	(fp_circle
+		(center 1.87 0.55)
+		(end 1.97 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3a699555-31ed-4410-9532-8e8f79452df7")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3 -0.5) (xy 0.3 -0.5) (xy 0.3 0) (xy -0.3 0)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "9ef09ba8-20a8-4c8d-9c58-1d381ed7d38c")
+	)
+	(pad "1" smd rect
+		(at 0.915 0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4f0a9972-0435-4dd5-9370-7ae608183f42")
+	)
+	(pad "2" smd rect
+		(at 0.915 -0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8b1223de-7f82-41c6-86a0-00df175be3d0")
+	)
+	(pad "3" smd rect
+		(at -0.915 -0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d5058305-c50d-4aa7-a3d0-9bf4b682da4c")
+	)
+	(pad "4" smd rect
+		(at -0.915 0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4f554725-c1c2-43a8-bea0-d6e2fdb5a1b7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/WS2812-2020/WS2812-2020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

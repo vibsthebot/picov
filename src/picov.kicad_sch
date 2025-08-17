@@ -873,6 +873,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x20"
 			(pin_names
 				(offset 1.016)
@@ -3767,184 +4025,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP2112K-3.3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AP2112K-3.3"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23?5*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP2112K-3.3_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP2112K-3.3_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4365,6 +4445,276 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WS2812-2020:WS2812-2020"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "WS2812-2020"
+				(at -10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Worldsemi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "V1.3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "WS2812-2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Intelligent control LED light source, SMD-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Worldsemi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "WS2812-2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812-2020_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "DI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "DO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5033,10 +5383,16 @@
 		(uuid "0e0ff61d-cd5b-4b75-9b1d-f5b0286363c5")
 	)
 	(junction
-		(at 36.83 87.63)
+		(at 90.17 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2657155e-9ec2-4de7-8202-037a4428916c")
+		(uuid "2164b04b-bab3-4068-a035-4fb25da1ea2d")
+	)
+	(junction
+		(at 125.73 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d66639-b848-4a70-8f78-f4f6beb32d07")
 	)
 	(junction
 		(at 236.22 35.56)
@@ -5075,10 +5431,28 @@
 		(uuid "50563d2f-a0d3-4e87-8f3b-878278b2965f")
 	)
 	(junction
+		(at 125.73 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58c50f7b-987d-4622-852a-5bdd4140160f")
+	)
+	(junction
 		(at 237.49 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70510291-e451-43ab-9a2e-40992c2fda75")
+	)
+	(junction
+		(at 95.25 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7388f006-7b10-4fd2-93bd-83ab9e75f93c")
+	)
+	(junction
+		(at 95.25 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d8f427-953f-449b-8d21-8161a440b014")
 	)
 	(junction
 		(at 153.67 104.14)
@@ -5103,12 +5477,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "815a00f9-2fc2-41d8-9a52-73ba579203a2")
-	)
-	(junction
-		(at 33.02 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8abec342-0e4e-4ca9-ba6f-e04d9aee9b2f")
 	)
 	(junction
 		(at 254 148.59)
@@ -5159,10 +5527,10 @@
 		(uuid "ae92617d-6d1c-4a4d-a233-e66a03a7b210")
 	)
 	(junction
-		(at 54.61 87.63)
+		(at 95.25 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bacf394e-618c-4fdb-af78-348816daf4b9")
+		(uuid "b9bd9df9-2c79-49a0-ba2e-e5e6438735df")
 	)
 	(junction
 		(at 76.2 90.17)
@@ -5171,10 +5539,16 @@
 		(uuid "c4f89cb6-81d5-4c29-969c-b2d78b4b87d2")
 	)
 	(junction
-		(at 49.53 97.79)
+		(at 34.29 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfee3fe9-22d4-4032-979b-a66256b6c16c")
+		(uuid "cd46fc74-d86a-48f4-9957-27b1a817b4f0")
+	)
+	(junction
+		(at 90.17 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf112331-35ef-438b-b83e-522fbe0336f6")
 	)
 	(junction
 		(at 246.38 43.18)
@@ -5237,6 +5611,10 @@
 		(uuid "f7febf7f-f277-437a-88b0-399c625322fc")
 	)
 	(no_connect
+		(at 60.96 181.61)
+		(uuid "185d2446-d13a-41f3-ae03-2fce0a919700")
+	)
+	(no_connect
 		(at 165.1 86.36)
 		(uuid "31aeb431-5fa9-4606-94f2-a530f271b333")
 	)
@@ -5294,6 +5672,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 196.85) (xy 130.81 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abd582d-7a24-43fc-95e0-ce8311cea1a7")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e07fe84-b3f1-4111-82a9-7152d287d675")
+	)
+	(wire
+		(pts
 			(xy 266.7 140.97) (xy 254 140.97)
 		)
 		(stroke
@@ -5344,6 +5742,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 181.61) (xy 161.29 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1091cd-c55f-44d6-873e-90fddd0e76eb")
+	)
+	(wire
+		(pts
 			(xy 26.67 34.29) (xy 31.75 34.29)
 		)
 		(stroke
@@ -5374,6 +5782,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 133.35) (xy 26.67 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e36cf2f-b120-4e68-88e0-10cdac1c2dad")
+	)
+	(wire
+		(pts
+			(xy 125.73 139.7) (xy 160.02 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bbffa4-01fb-4b30-b380-a26ced62b755")
+	)
+	(wire
+		(pts
 			(xy 278.13 140.97) (xy 266.7 140.97)
 		)
 		(stroke
@@ -5381,6 +5809,26 @@
 			(type default)
 		)
 		(uuid "3435b330-a0a9-4981-9da6-9e1663b2e2d6")
+	)
+	(wire
+		(pts
+			(xy 90.17 165.1) (xy 90.17 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e22e0a-d5a8-4490-9630-d15f60fd76fb")
+	)
+	(wire
+		(pts
+			(xy 125.73 165.1) (xy 125.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3949a0f1-6629-4ff9-ac08-31d54dcea897")
 	)
 	(wire
 		(pts
@@ -5444,6 +5892,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 134.62) (xy 38.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac7d3a3-975b-4a94-8b4a-64480ad0cefe")
+	)
+	(wire
+		(pts
 			(xy 251.46 22.86) (xy 251.46 35.56)
 		)
 		(stroke
@@ -5474,6 +5932,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 120.65) (xy 38.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b780590-eb7b-4f50-bc19-c53b73f07e80")
+	)
+	(wire
+		(pts
+			(xy 53.34 165.1) (xy 90.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0ec2c3-d84c-4e55-881d-1a24a3c1fdca")
+	)
+	(wire
+		(pts
 			(xy 143.51 104.14) (xy 153.67 104.14)
 		)
 		(stroke
@@ -5494,6 +5972,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 171.45) (xy 130.81 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50646689-0102-4dd7-be46-9a47d0aa313b")
+	)
+	(wire
+		(pts
+			(xy 95.25 165.1) (xy 95.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a6bee1-e4ab-47e4-828f-551ebb59c7f0")
+	)
+	(wire
+		(pts
 			(xy 92.71 116.84) (xy 90.17 116.84)
 		)
 		(stroke
@@ -5501,6 +5999,16 @@
 			(type default)
 		)
 		(uuid "51557daf-c609-439f-841b-c04536257165")
+	)
+	(wire
+		(pts
+			(xy 60.96 176.53) (xy 60.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f030ca-2212-4eba-b444-c6ef2fa8a194")
 	)
 	(wire
 		(pts
@@ -5534,16 +6042,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 87.63) (xy 36.83 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5acb9c9c-8fe5-4357-88c9-65f6286a4c43")
-	)
-	(wire
-		(pts
 			(xy 181.61 35.56) (xy 181.61 38.1)
 		)
 		(stroke
@@ -5564,6 +6062,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 149.86) (xy 53.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df70a1e-ee3a-4207-b36c-ecbbab033d45")
+	)
+	(wire
+		(pts
 			(xy 86.36 20.32) (xy 86.36 24.13)
 		)
 		(stroke
@@ -5571,16 +6079,6 @@
 			(type default)
 		)
 		(uuid "5f9e5606-9a8a-4984-8f3f-983dfd0c3d33")
-	)
-	(wire
-		(pts
-			(xy 44.45 97.79) (xy 49.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611bb8eb-f55d-404d-a488-7c62b0a93339")
 	)
 	(wire
 		(pts
@@ -5594,13 +6092,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 54.61 87.63)
+			(xy 34.29 123.19) (xy 34.29 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "649cda4d-91bd-41b7-9b3f-33e0ddb49ec9")
+		(uuid "623a2016-0325-49af-bdea-131cdbaf525d")
 	)
 	(wire
 		(pts
@@ -5611,6 +6109,36 @@
 			(type default)
 		)
 		(uuid "6736e350-ea91-48a2-ad05-cd2e7c95ac4b")
+	)
+	(wire
+		(pts
+			(xy 34.29 118.11) (xy 38.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684ddd39-f5ce-4ff7-81aa-a4c9bc68f89a")
+	)
+	(wire
+		(pts
+			(xy 125.73 139.7) (xy 125.73 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bf1a6c-e472-4214-8b38-4baa363d6c20")
+	)
+	(wire
+		(pts
+			(xy 95.25 176.53) (xy 95.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adb8c94-3df2-47d3-8e23-39db7f761ff7")
 	)
 	(wire
 		(pts
@@ -5674,6 +6202,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 139.7) (xy 125.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74939fb2-c90a-4f3f-9d83-1cc26b9fd775")
+	)
+	(wire
+		(pts
 			(xy 215.9 127) (xy 215.9 134.62)
 		)
 		(stroke
@@ -5694,6 +6232,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 154.94) (xy 129.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0dc3a6-4961-40c8-95cd-44e4d349b62c")
+	)
+	(wire
+		(pts
+			(xy 91.44 181.61) (xy 95.25 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803d5b59-1307-46e0-9e3d-4fa54a9e9aba")
+	)
+	(wire
+		(pts
 			(xy 243.84 43.18) (xy 246.38 43.18)
 		)
 		(stroke
@@ -5711,6 +6269,16 @@
 			(type default)
 		)
 		(uuid "808c2335-7df9-4e33-a857-f772120465d1")
+	)
+	(wire
+		(pts
+			(xy 29.21 118.11) (xy 34.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813ac804-3968-4767-8ecc-f818862d70f2")
 	)
 	(wire
 		(pts
@@ -5754,6 +6322,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 160.02) (xy 53.34 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe5c098-8860-4a73-9943-6b7944a6005f")
+	)
+	(wire
+		(pts
+			(xy 29.21 110.49) (xy 38.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9004aec4-7671-4ff6-a895-cfddd40ff503")
+	)
+	(wire
+		(pts
 			(xy 83.82 90.17) (xy 90.17 90.17)
 		)
 		(stroke
@@ -5764,13 +6352,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 95.25) (xy 54.61 97.79)
+			(xy 90.17 165.1) (xy 95.25 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "952607ff-404b-4876-b973-f7890b7d9635")
+		(uuid "950734ca-b425-4612-8a1d-2f40f0e13961")
 	)
 	(wire
 		(pts
@@ -5784,13 +6372,43 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 87.63) (xy 33.02 87.63)
+			(xy 60.96 196.85) (xy 95.25 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "985e4a32-da89-4d80-8b8c-4d35c2add389")
+		(uuid "98720edb-5603-49b4-92d1-e851de5b15dc")
+	)
+	(wire
+		(pts
+			(xy 95.25 196.85) (xy 130.81 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1402cb-b616-4da3-9c13-6b613dccaaed")
+	)
+	(wire
+		(pts
+			(xy 125.73 181.61) (xy 130.81 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db8675e-ca80-487f-be50-b8169c5239c3")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.94) (xy 163.83 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70f2419-136c-499a-b909-715f668de8dc")
 	)
 	(wire
 		(pts
@@ -5834,13 +6452,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 87.63) (xy 59.69 87.63)
+			(xy 95.25 165.1) (xy 125.73 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b533976b-6100-4919-9682-e05fde5e7ef6")
+		(uuid "ba55bb74-dd8c-431f-9f4c-abb5b97166a9")
 	)
 	(wire
 		(pts
@@ -5851,6 +6469,16 @@
 			(type default)
 		)
 		(uuid "bd3ab4f9-08fa-44d3-9d31-b792a6286a49")
+	)
+	(wire
+		(pts
+			(xy 125.73 165.1) (xy 160.02 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf38865f-e2a0-485e-9540-482a83f61304")
 	)
 	(wire
 		(pts
@@ -5871,6 +6499,26 @@
 			(type default)
 		)
 		(uuid "c4582199-5923-4f41-95f7-bd5c47f3fac1")
+	)
+	(wire
+		(pts
+			(xy 90.17 139.7) (xy 90.17 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c47dd7-c865-479d-b399-03e366bb7468")
+	)
+	(wire
+		(pts
+			(xy 53.34 139.7) (xy 90.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8de830c-1ca0-4ccd-bdbc-bb97447738ca")
 	)
 	(wire
 		(pts
@@ -5914,6 +6562,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 139.7) (xy 160.02 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d013e8ac-8957-474d-8008-e4b3668d4ce2")
+	)
+	(wire
+		(pts
 			(xy 92.71 116.84) (xy 95.25 116.84)
 		)
 		(stroke
@@ -5921,6 +6579,16 @@
 			(type default)
 		)
 		(uuid "d296e51a-1904-44f3-9c98-a35efbd6330f")
+	)
+	(wire
+		(pts
+			(xy 160.02 165.1) (xy 160.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d734bd24-327c-4386-9eb0-ecc69637e81d")
 	)
 	(wire
 		(pts
@@ -5954,6 +6622,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 186.69) (xy 60.96 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de091182-c724-41f6-8e2d-a1eebe7fc6a2")
+	)
+	(wire
+		(pts
+			(xy 163.83 154.94) (xy 163.83 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def6386d-7b51-4ccf-a81f-4e0fe413aefd")
+	)
+	(wire
+		(pts
 			(xy 215.9 134.62) (xy 241.3 134.62)
 		)
 		(stroke
@@ -5961,6 +6649,16 @@
 			(type default)
 		)
 		(uuid "dfb2b9fc-0a80-4406-bb90-0081b4a4e718")
+	)
+	(wire
+		(pts
+			(xy 60.96 171.45) (xy 95.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcaa9a3-7ecc-4d3c-8e7a-0f2375db68f8")
 	)
 	(wire
 		(pts
@@ -5974,6 +6672,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 171.45) (xy 130.81 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c44c43-bfa9-4157-9034-c10865a684ce")
+	)
+	(wire
+		(pts
 			(xy 76.2 77.47) (xy 76.2 90.17)
 		)
 		(stroke
@@ -5984,16 +6692,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 97.79) (xy 54.61 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e62c87e9-7746-47e5-83d9-03264af66823")
-	)
-	(wire
-		(pts
 			(xy 212.09 26.67) (xy 223.52 26.67)
 		)
 		(stroke
@@ -6001,6 +6699,16 @@
 			(type default)
 		)
 		(uuid "e678ccfa-d892-4aff-a559-959b2a75fd14")
+	)
+	(wire
+		(pts
+			(xy 90.17 154.94) (xy 95.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8550a45-2175-4d41-a231-ff90352aa9c1")
 	)
 	(wire
 		(pts
@@ -6044,13 +6752,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 87.63) (xy 36.83 87.63)
+			(xy 95.25 196.85) (xy 95.25 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed9ffe80-62fd-4e8c-a084-cc1c079ea456")
+		(uuid "f1249c71-b6f6-4128-b966-69bb458b3fda")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 59.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f685f609-fa92-4770-8464-ab1ca5b876da")
 	)
 	(wire
 		(pts
@@ -6092,6 +6810,16 @@
 		)
 		(uuid "fb76d7b9-408c-4f48-8f5b-59cb656a22f7")
 	)
+	(wire
+		(pts
+			(xy 26.67 115.57) (xy 26.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfeb505-0177-4ab4-beed-3d061b89996c")
+	)
 	(global_label "IO17"
 		(shape input)
 		(at 266.7 93.98 0)
@@ -6127,6 +6855,28 @@
 		(uuid "007e77e4-323a-40e6-b8e2-0c9f83d4b863")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.3834 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 60.96 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0619f2f8-f949-4dec-a2c0-fb1873af7b55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.3786 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,6 +7920,28 @@
 			)
 		)
 	)
+	(global_label "IO25"
+		(shape input)
+		(at 22.86 154.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8af4d97e-a877-468e-bc2b-34cec9daa597")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 147.6005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO21"
 		(shape input)
 		(at 266.7 104.14 0)
@@ -7368,6 +8140,28 @@
 			)
 		)
 	)
+	(global_label "VSYS"
+		(shape input)
+		(at 38.1 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a437c250-0087-4dae-b2e0-6caba1d35268")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.5186 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO7"
 		(shape input)
 		(at 266.7 68.58 0)
@@ -7496,6 +8290,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 29.21 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b52bf77e-dfd0-47ff-a8fd-9312fe1ba846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.21 125.6914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7720,6 +8536,28 @@
 			)
 		)
 	)
+	(global_label "VSYS"
+		(shape input)
+		(at 53.34 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccbefdf6-be5a-4cdf-bac6-c3f63cde4e58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.7586 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO11"
 		(shape input)
 		(at 266.7 78.74 0)
@@ -7777,28 +8615,6 @@
 		(uuid "d04e615a-8218-4edb-a1eb-38ae7fc08576")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.64 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSYS"
-		(shape input)
-		(at 22.86 87.63 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d294508f-8adb-494a-9837-dd9b75418c17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 80.0486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,6 +8973,220 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812-2020:WS2812-2020")
+		(at 144.78 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a6795ec-dff5-4420-adc3-4e2dd89dbaa7")
+		(property "Reference" "U8"
+			(at 144.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812-2020"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Worldsemi"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.3"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WS2812-2020"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Intelligent control LED light source, SMD-4"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Worldsemi"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "WS2812-2020"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ff6db03-3639-4d77-93fe-a84ef8b538ac")
+		)
+		(pin "4"
+			(uuid "c002e448-e82c-44b8-9210-3247a2d658a6")
+		)
+		(pin "3"
+			(uuid "b8e26920-5c3c-468b-8ed8-ecec8defe9c5")
+		)
+		(pin "2"
+			(uuid "dc49e16d-562c-4314-ac23-e41287fdaa40")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "U8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8526,7 +9556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Boot"
+		(property "Value" "SW_Push"
 			(at 35.56 52.0699 90)
 			(effects
 				(font
@@ -8535,7 +9565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(property "Footprint" "Button_Switch_SMD:SMD_3x4"
 			(at 36.83 50.8 0)
 			(effects
 				(font
@@ -8562,7 +9592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2858607"
+		(property "LCSC" "C455280"
 			(at 31.75 50.8 90)
 			(effects
 				(font
@@ -8885,73 +9915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 33.02 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29adee6c-9b30-40b8-a448-d0b01c418120")
-		(property "Reference" "#PWR08"
-			(at 33.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f65012a-e645-4509-86de-a65267533cdc")
-		)
-		(instances
-			(project "picov"
-				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 80.01 111.76 0)
 		(unit 1)
@@ -9024,6 +9987,97 @@
 			(project ""
 				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 43.18 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "320dec6a-99e0-4af6-938c-e39c0120be33")
+		(property "Reference" "J5"
+			(at 45.72 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 45.72 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C610271"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d2df3c9-fc45-40f8-86fe-000766ef6397")
+		)
+		(pin "2"
+			(uuid "0865d270-7dd4-4a06-9fc6-ff17819c459f")
+		)
+		(pin "3"
+			(uuid "cb718394-878b-4c7a-8ec2-234e415207f9")
+		)
+		(pin "4"
+			(uuid "228accda-c3f0-43d2-a896-3832295c232d")
+		)
+		(pin "5"
+			(uuid "1a2c3c9e-e6e6-412c-9c5f-da0fa40e2962")
+		)
+		(pin "6"
+			(uuid "c22cc6e0-0a96-443d-974f-769475466cf4")
+		)
+		(instances
+			(project ""
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9175,6 +10229,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 90.17 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dcdd47b-dd57-47e0-beee-da6691f410a1")
+		(property "Reference" "#PWR028"
+			(at 90.17 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777ed009-f624-47f6-b1a0-663a91b4ee33")
+		)
+		(instances
+			(project ""
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 257.81 39.37 0)
 		(unit 1)
@@ -9320,6 +10440,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 34.29 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4469b0e0-8d61-40bf-80cb-02eec9f1ebef")
+		(property "Reference" "#PWR036"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e438679-93f7-4566-afd8-02dc89146d4a")
+		)
+		(instances
+			(project ""
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 212.09 30.48 0)
 		(unit 1)
@@ -9392,150 +10579,6 @@
 			(project "picov"
 				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 33.02 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d486038-64d6-45ba-9e98-86db2d0bb747")
-		(property "Reference" "C10"
-			(at 26.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 27.94 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 33.9852 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b57e50b1-8e40-46e4-9d0b-9c77676a76be")
-		)
-		(pin "2"
-			(uuid "cd3430e4-24fc-4317-a489-a2398d5a63cf")
-		)
-		(instances
-			(project "picov"
-				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 59.69 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f0e32b8-6d95-43e7-8aff-02bf72ded6aa")
-		(property "Reference" "#PWR06"
-			(at 59.69 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 59.69 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc65f34b-da7b-407c-b4b8-bae2385ab22e")
-		)
-		(instances
-			(project "picov"
-				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9982,6 +11025,298 @@
 			(project ""
 				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812-2020:WS2812-2020")
+		(at 146.05 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f1ffa05-6332-4b10-8fc1-de72780245f9")
+		(property "Reference" "U9"
+			(at 146.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812-2020"
+			(at 146.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Worldsemi"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.3"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WS2812-2020"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Intelligent control LED light source, SMD-4"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Worldsemi"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "WS2812-2020"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f17e95d-de1e-4c2a-93aa-f1841ea1e757")
+		)
+		(pin "4"
+			(uuid "b18a70b1-5b92-4937-82eb-6d678614bb4d")
+		)
+		(pin "3"
+			(uuid "393c2fae-74e0-4eef-9bc8-0232ce78c880")
+		)
+		(pin "2"
+			(uuid "2a730131-4584-4b5e-a896-3bbc06a8206a")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f619112-a146-42bb-8e3f-99a452195eef")
+		(property "Reference" "C10"
+			(at 27.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 29.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.2552 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0667dbab-781b-4eb7-bb65-89c5dacf3448")
+		)
+		(pin "2"
+			(uuid "b1d771c3-6575-41d1-8688-38bae9ea057b")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10976,7 +12311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KXT3"
+		(property "Footprint" "Button_Switch_SMD:SMD_3x4"
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -11003,7 +12338,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2858607"
+		(property "LCSC" "C455280"
 			(at 100.33 116.84 0)
 			(effects
 				(font
@@ -11527,73 +12862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 49.53 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a9e084a-c090-4742-bd7a-3bf9c0346bb2")
-		(property "Reference" "#PWR07"
-			(at 49.53 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "210137a1-e0fe-4ef1-8201-f08b05d9ac1a")
-		)
-		(instances
-			(project "picov"
-				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 80.01 77.47 90)
 		(unit 1)
@@ -11825,33 +13093,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 44.45 90.17 0)
+		(lib_id "WS2812-2020:WS2812-2020")
+		(at 76.2 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7f758e7-9932-4234-899f-81af7fd96f98")
-		(property "Reference" "U2"
-			(at 44.45 81.28 0)
+		(uuid "a6918cde-442d-4ad2-806b-f921e779c286")
+		(property "Reference" "U11"
+			(at 76.2 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AP2112K-3.3"
-			(at 44.45 83.82 0)
+		(property "Value" "WS2812-2020"
+			(at 76.2 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 44.45 81.915 0)
+		(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,8 +13137,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-			(at 44.45 87.63 0)
+		(property "Description" ""
+			(at 76.2 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,43 +13146,161 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-			(at 44.45 90.17 0)
+		(property "MF" "Worldsemi"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.3"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WS2812-2020"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Intelligent control LED light source, SMD-4"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Worldsemi"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "WS2812-2020"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 76.2 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC" "C51118"
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b9dceefe-f516-4c6a-b13c-316386fe6878")
-		)
-		(pin "2"
-			(uuid "7de50191-25bc-47de-b420-ead2b4a8c705")
-		)
-		(pin "4"
-			(uuid "777172d7-25e6-4a9d-9e06-50d19d4b0e37")
-		)
-		(pin "5"
-			(uuid "5a844b03-5d4f-463e-a6c5-23b673032dc6")
 		)
 		(pin "1"
-			(uuid "8e07b641-00df-44e4-a2f1-252627ecb41a")
+			(uuid "2f6166c4-0fe3-409f-99ed-6c945b9db986")
+		)
+		(pin "4"
+			(uuid "7545cc3e-ca8f-47de-90f5-099fb59a88e1")
+		)
+		(pin "3"
+			(uuid "731373ff-723f-4603-b239-901b37c34a62")
+		)
+		(pin "2"
+			(uuid "4a6ac41c-9f91-44a0-b3bb-8636cc0979fe")
 		)
 		(instances
-			(project ""
+			(project "picov"
 				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
-					(reference "U2")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -12005,7 +13401,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "SW_Push"
 			(at 85.09 123.19 0)
 			(effects
 				(font
@@ -12013,7 +13409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KXT3"
+		(property "Footprint" "Button_Switch_SMD:SMD_3x4"
 			(at 85.09 111.76 0)
 			(effects
 				(font
@@ -12040,7 +13436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2858607"
+		(property "LCSC" "C455280"
 			(at 85.09 116.84 0)
 			(effects
 				(font
@@ -12223,7 +13619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25Q16JVUXIQ_TR:IC_W25Q16JVUXIQ_TR"
+		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -12347,6 +13743,434 @@
 		)
 	)
 	(symbol
+		(lib_id "WS2812-2020:WS2812-2020")
+		(at 38.1 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce13c80-f1bc-42fd-9a3c-df46f51c2006")
+		(property "Reference" "U5"
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812-2020"
+			(at 38.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Worldsemi"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.3"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WS2812-2020"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Intelligent control LED light source, SMD-4"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Worldsemi"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "WS2812-2020"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb9853a-1258-4b21-980d-f51e7a7c7e0b")
+		)
+		(pin "4"
+			(uuid "24542f07-a4e0-4b50-b649-ab51a2be0e12")
+		)
+		(pin "3"
+			(uuid "07850cb9-5c5b-4dde-a94a-a364ef0bb5cf")
+		)
+		(pin "2"
+			(uuid "128df2ae-2682-4a7a-94cc-69e9a33218f3")
+		)
+		(instances
+			(project ""
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812-2020:WS2812-2020")
+		(at 110.49 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce802d2-8d62-4ea4-ba68-67fdf472b2c9")
+		(property "Reference" "U7"
+			(at 110.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812-2020"
+			(at 110.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Worldsemi"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.3"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WS2812-2020"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Intelligent control LED light source, SMD-4"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Worldsemi"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "WS2812-2020"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "837e9a0c-9604-44c3-8cb8-ae3a45751034")
+		)
+		(pin "4"
+			(uuid "b0737aff-83ae-495c-8569-12ef220f9fba")
+		)
+		(pin "3"
+			(uuid "02952fe0-f30b-4f34-af6d-f361ed63e261")
+		)
+		(pin "2"
+			(uuid "b127d3bc-798b-446f-adba-6fc89204d8dd")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 237.49 148.59 0)
 		(unit 1)
@@ -12408,6 +14232,220 @@
 			(project ""
 				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812-2020:WS2812-2020")
+		(at 74.93 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3187fcc-03c7-4644-acbf-addd0f1f8960")
+		(property "Reference" "U6"
+			(at 74.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812-2020"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Worldsemi"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.3"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WS2812-2020"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Intelligent control LED light source, SMD-4"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Worldsemi"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "WS2812-2020"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d503228c-51cd-4353-ac56-0c881e9a4391")
+		)
+		(pin "4"
+			(uuid "80644342-6fab-4db4-974e-a515e3b40b7b")
+		)
+		(pin "3"
+			(uuid "f6656381-0f59-4adc-9719-c82cad41236c")
+		)
+		(pin "2"
+			(uuid "435c6cc1-e8d6-4270-b369-6428032cb8dc")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12613,84 +14651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 54.61 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cffd8827-4fa7-46a9-83cd-79307cfa17a1")
-		(property "Reference" "C9"
-			(at 58.42 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 58.42 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.5752 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32a040f4-fcb2-41f2-be6d-796b904aee63")
-		)
-		(pin "2"
-			(uuid "2e562428-cb3f-4f46-a9b5-01bea7d15586")
-		)
-		(instances
-			(project "picov"
-				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x20")
 		(at 170.18 96.52 0)
 		(unit 1)
@@ -12808,6 +14768,84 @@
 			(project ""
 				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 26.67 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d69ca50e-6346-431f-a2f2-ad592d0f147d")
+		(property "Reference" "C7"
+			(at 20.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 21.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 27.6352 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12a6fe01-52ce-4168-927a-2a6a571b79b0")
+		)
+		(pin "2"
+			(uuid "0dde155a-8e49-4412-a0c6-8c86ea7981e1")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13070,6 +15108,140 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 29.21 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "defa1bc1-4a77-4334-a028-4b601efdb840")
+		(property "Reference" "#PWR037"
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b595912-d2b5-41d9-83ab-79e21586efdd")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 38.1 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e269855e-24c0-476e-a1a4-b8d2d5f81fbe")
+		(property "Reference" "#PWR035"
+			(at 41.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a73e5b1-74e1-4707-b478-2b5d4ebf27fd")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 228.6 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13196,6 +15368,220 @@
 			(project ""
 				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812-2020:WS2812-2020")
+		(at 110.49 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f109296d-dfaf-40fc-af6c-158561c61ddc")
+		(property "Reference" "U10"
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812-2020"
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812-2020:LED_WS2812-2020"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Worldsemi"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84 mm"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=eda"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.3"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WS2812-2020/Worldsemi/view-part/?ref=snap"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "WS2812-2020"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Intelligent control LED light source, SMD-4"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Worldsemi"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "WS2812-2020"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ec654fc-1a43-48a1-95eb-bf96ca781d73")
+		)
+		(pin "4"
+			(uuid "abcc7d35-c526-48a6-bd70-5475342fdad2")
+		)
+		(pin "3"
+			(uuid "c59b3b56-26f1-44fd-89ce-c07ee540ba35")
+		)
+		(pin "2"
+			(uuid "fb5ff060-76e7-4228-a1c3-29be4bb07ab4")
+		)
+		(instances
+			(project "picov"
+				(path "/a66e6ec4-e6a1-4fc9-8b7d-1e954536572b"
+					(reference "U10")
 					(unit 1)
 				)
 			)

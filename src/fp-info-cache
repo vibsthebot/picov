@@ -1,4 +1,4 @@
-27203708477551285
+27207218766267316
 74AHCT1G125W5-7
 SOT25_DIO
 
@@ -670,6 +670,13 @@ http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
 SMD SMT SPST EVQPUM EVQPUD
 0
 4
+2
+Button_Switch_SMD
+SMD_3x4
+
+
+0
+2
 2
 Button_Switch_SMD
 SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin
@@ -108702,3 +108709,10 @@ IC_W25Q16JVUXIQ_TR
 0
 9
 9
+WS2812-2020
+LED_WS2812-2020
+
+
+0
+4
+4

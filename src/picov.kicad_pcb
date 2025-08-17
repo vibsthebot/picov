@@ -1363,6 +1363,7 @@
 		(property "Reference" "U3"
 			(at 0 -1.95 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a847ea0d-2173-4215-aa84-2a193b109cd3")
 			(effects
 				(font
